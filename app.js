@@ -7,7 +7,8 @@ const comic2 = new Comic("Incredibles", "https://comicvine1.cbsistatic.com/uploa
 
 const elem = document.getElementById("comics")
 
-const son = document.createElement("div")
+function showComics (){
+    const son = document.createElement("div")
 son.innerHTML = `
 <div class="card" style="width: 18rem;">
   <img src="${comic1.getPoster()}" class="card-img-top" alt="">
@@ -19,3 +20,6 @@ son.innerHTML = `
 </div>
 `
 elem.appendChild(son)
+
+}
+showComics()
