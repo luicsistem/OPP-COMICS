@@ -5,9 +5,10 @@ const comic1 = new Comic("Capitan America", "https://comicvine1.cbsistatic.com/u
 console.log(comic1);
 const comic2 = new Comic("Incredibles", "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/7234170-01a.jpg","Jean-Claudio")
 
-const elem = document.getElementById("comic")
+const elem = document.getElementById("comics")
 
-elem.innerHTML = `
+const son = document.createElement("div")
+son.innerHTML = `
 <div class="card" style="width: 18rem;">
   <img src="${comic1.getPoster()}" class="card-img-top" alt="">
   <div class="card-body">
@@ -17,3 +18,4 @@ elem.innerHTML = `
   </div>
 </div>
 `
+elem.appendChild(son)
