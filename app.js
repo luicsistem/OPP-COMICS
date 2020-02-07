@@ -36,3 +36,5 @@ showComics(comic3)
 showComics(comic4)
 showComics(comic5)
 showComics(comic6)
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
