@@ -1,0 +1,23 @@
+[33mcommit 56ebf14499ff70f91b0330a2b963fbc296c8ee9c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: luis <luic.sistem@gmail.com>
+Date:   Fri Feb 7 12:51:07 2020 -0500
+
+    show more comics in dom
+
+[33mcommit 271d02056905594dc267e336ea97808729a8eb37[m
+Author: luis <luic.sistem@gmail.com>
+Date:   Fri Feb 7 11:54:09 2020 -0500
+
+    creando function para mostrar comics
+
+[33mcommit ad056a98a78075269fc024512898a96d55aac1e6[m
+Author: luis <luic.sistem@gmail.com>
+Date:   Fri Feb 7 11:50:50 2020 -0500
+
+    mostrandolo con appenchild
+
+[33mcommit a0eea12e5df7ab6d7977b4bfd7b2473756b76d54[m
+Author: luis <luic.sistem@gmail.com>
+Date:   Fri Feb 7 11:37:25 2020 -0500
+
+    creando my first cards
